@@ -1,3 +1,3 @@
-const Hello = 'Javascript Rocks!!!'
-Hello = 'JavaScript Rocks!!!'
-console.log(Hello)
+var greeting
+greeting = 'JavaScript Rocks!!!'
+console.log(greeting)
