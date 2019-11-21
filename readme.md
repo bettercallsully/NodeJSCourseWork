@@ -1,1 +1,1 @@
-Everything learned within the course
+Everything learned within the course NodeYQR Course
