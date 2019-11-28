@@ -1,0 +1,22 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible' content='ie=edge')
+  title Hello World
+header
+  | Hello World
+ul
+  li Australia
+  li Europe
+  li North America
+  li South America
+  li Africa
+  li Asia
+  li Antartica
+
+  each continent in continents
+    li= continent.name 
+
+
+  

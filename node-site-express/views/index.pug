@@ -1,10 +1,14 @@
 doctype html
-html
-head 
-title Simple Site Using NodeJS Express and Pug
-link(rel= 'stylesheet', href='/css/styles.css')
-block styles
-script(src)
-body 
-h1 Welcome to NodeJS Express and Pug
-p This project is just to practice 
+  head
+    title Simple site using Node.js, Express and Pug
+    link(rel='stylesheet', href="/css/styles.css")
+    script(src="/js/scripts.js")
+extends ./layout.pug
+
+block content
+  h1 Superheroes
+  p This site shows superheroes information
+  each superheroe in superheroes
+    div.superheroe-container
+      img(src='/img/superheroes/' + superheroe.image)
+      h3= superheroe.name
